@@ -27,8 +27,8 @@ def input_amount():
 def ankit(attempts, max_attempts, total_amount):
 
     while attempts < max_attempts:
-        user_username = str(input("Tera naam kya hai re: "))
-        user_pin = int(input("Chal pin bol: "))
+        user_username = str(input("Apna name enter karein: "))
+        user_pin = int(input("Pin no. dalein: "))
 
         if user_username == real_username and user_pin == real_pin:
             print("Login successfully...")
@@ -38,15 +38,15 @@ def ankit(attempts, max_attempts, total_amount):
                 enter_amount = input_amount()
 
                 if  enter_amount > total_amount :
-                    print("tere paas paise hi nhi hai.....")
+                    print("insfficiend fund.....")
                     
                 elif enter_amount < 1000:
-                    print("Abe ", enter_amount, " se kya hoga fir soch le") 
+                    print("Are ", enter_amount, " se kya hoga fir soch lo") 
                 else:    
                     print("Ha ye theek hai.")
                     print(" payment successful", enter_amount)
                     total_amount = total_amount - enter_amount
-                    print("Ab tere paas ",total_amount, "rupee bache hai.")
+                    print("Ab aapke paas ",total_amount, "rupee bache hai.")
                     break
             return
         else:
