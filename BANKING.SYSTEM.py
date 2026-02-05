@@ -56,8 +56,7 @@ def ankit(attempts, max_attempts, total_amount):
         else:
             attempts += 1
             print("try again")
-
-
+    print("Acount Temporary Locked!")
 
 ankit(attempts, max_attempts, total_amount)
 
