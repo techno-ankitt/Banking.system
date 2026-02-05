@@ -17,7 +17,7 @@ def print_info(total_amount):
 def input_amount():
     while True:
         try:
-            enter_amount = int(input("Abe kitne paise mangta hai: "))
+            enter_amount = int(input("Enter Amount: "))
             return enter_amount
         except ValueError :
             print("amount must be a number")
@@ -27,6 +27,7 @@ def input_amount():
 def ankit(attempts, max_attempts, total_amount):
 
     while attempts < max_attempts:
+          print('''"Welcome to the "Ankit Digital's Bank"''')
         user_username = str(input("Apna name enter karein: "))
         user_pin = int(input("Pin no. dalein: "))
 
