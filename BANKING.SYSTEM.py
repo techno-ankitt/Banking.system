@@ -17,7 +17,10 @@ def print_info(total_amount):
 def input_amount():
     while True:
         try:
-            enter_amount = int(input("Enter Amount: "))
+            enter_amount = int(input("Abe kitne paise mangta hai: "))
+            if enter_amount <= 0:
+                print("Amount positive hona chahiye!")
+                continue
             return enter_amount
         except ValueError :
             print("amount must be a number")
@@ -27,9 +30,9 @@ def input_amount():
 def ankit(attempts, max_attempts, total_amount):
 
     while attempts < max_attempts:
-          print('''"Welcome to the "Ankit Digital's Bank"''')
-        user_username = str(input("Apna name enter karein: "))
-        user_pin = int(input("Pin no. dalein: "))
+        print('''"Welcome to the "Ankit Digital's Bank"''')
+        user_username = str(input("Tera naam kya hai re: "))
+        user_pin = int(input("Chal pin bol: "))
 
         if user_username == real_username and user_pin == real_pin:
             print("Login successfully...")
@@ -39,15 +42,15 @@ def ankit(attempts, max_attempts, total_amount):
                 enter_amount = input_amount()
 
                 if  enter_amount > total_amount :
-                    print("insfficiend fund.....")
+                    print("tere paas paise hi nhi hai.....")
                     
                 elif enter_amount < 1000:
-                    print("Are ", enter_amount, " se kya hoga fir soch lo") 
+                    print("Abe ", enter_amount, " se kya hoga fir soch le") 
                 else:    
                     print("Ha ye theek hai.")
                     print(" payment successful", enter_amount)
                     total_amount = total_amount - enter_amount
-                    print("Ab aapke paas ",total_amount, "rupee bache hai.")
+                    print("Ab tere paas ",total_amount, "rupee bache hai.")
                     break
             return
         else:
