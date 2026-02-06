@@ -1,6 +1,6 @@
 # Banking.system
 
-🏦 Ankit Digital's Bank-----
+🏦 Ankit Digital's Bank-
 A lightweight, interactive Python-based ATM simulation system. This project demonstrates basic programming concepts like authentication, error handling, and state management with a touch of personality.
 
 🌟 Features------
