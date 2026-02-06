@@ -6,17 +6,17 @@ A lightweight, interactive Python-based ATM simulation system. This project demo
 🌟 Features------
 Secure Authentication: User login system with a PIN-protected interface.
 
-Attempt Limiter: Automatically locks the account after 3 failed login attempts to prevent brute-force access.
+1.Attempt Limiter: Automatically locks the account after 3 failed login attempts to prevent brute-force access.
 
-Smart Withdrawal Logic: * Prevents withdrawal if the balance is insufficient.
+2.Smart Withdrawal Logic: * Prevents withdrawal if the balance is insufficient.
 
-Minimum withdrawal threshold (₹1,000) to encourage "meaningful" transactions.
+3.Minimum withdrawal threshold (₹1,000) to encourage "meaningful" transactions.
 
-Robust Input Validation: Uses try-except blocks to ensure the system doesn't crash if a user enters text instead of numbers.
+4.Robust Input Validation: Uses try-except blocks to ensure the system doesn't crash if a user enters text instead of numbers.
 
-Dynamic Balance Tracking: Real-time updates to the total amount after every successful transaction.
+5.Dynamic Balance Tracking: Real-time updates to the total amount after every successful transaction.
 
-🛠️ Technical Stack
+🛠️ Technical Stack------
 Language: Python 3.x
 
 Core Concepts: * while loops for continuous interaction.
