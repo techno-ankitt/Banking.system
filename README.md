@@ -1,9 +1,9 @@
 # Banking.system
 
-🏦 Ankit Digital's Bank-
+### 🏦 Ankit Digital's Bank-
 A lightweight, interactive Python-based ATM simulation system. This project demonstrates basic programming concepts like authentication, error handling, and state management with a touch of personality.
 
-🌟 Features------
+### Features------
 Secure Authentication: User login system with a PIN-protected interface.
 
 1.Attempt Limiter: Automatically locks the account after 3 failed login attempts to prevent brute-force access.
@@ -16,11 +16,11 @@ Secure Authentication: User login system with a PIN-protected interface.
 
 5.Dynamic Balance Tracking: Real-time updates to the total amount after every successful transaction.
 
-🛠️ Technical Stack------
+### Technical Stack------
 Language: Python 3.x
 
-Core Concepts: * while loops for continuous interaction.
+### Core Concepts: * while loops for continuous interaction.
 
-try-except for data validation.
+1.try-except for data validation.
 
-Functional programming for modularity.
+2.Functional programming for modularity.
